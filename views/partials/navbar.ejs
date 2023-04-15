@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm navbar-dark p-3"
+    style="background: linear-gradient(135deg,#FF512F,#DD2476 60%,rgb(154, 47, 204)) !important;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/toursite" id="top-heading">TripSpot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-links">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/toursite">Main</a>
+                <a class="nav-link" href="/toursite/new">New Toursite</a>
+            </div>
+            <div class="navbar-nav ms-auto navbar-links">
+                <%if(!currUser){%>
+                    <a class="nav-link" href="/register">Register</a>
+                    <a class="nav-link" href="/login">Sign In</a>
+                    <%} else {%>
+                        <span class="navbar-text me-4" style="color: #20c03b;font-family:'Segoe UI',sans-serif;">
+                            <b>Hello, <%= currUser.username %>!</b>
+                        </span>
+                        <a class="nav-link" href="/logout">Log Out</a>
+                        <% } %>
+            </div>
+        </div>
+    </div>
+</nav>

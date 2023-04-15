@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(249, 247, 252, 0.671);
+}
+@-moz-document url-prefix() {
+    body {
+        -webkit-text-stroke-width: 0.01px;
+        -webkit-text-stroke-color: black;
+    }
+}
+#top-heading{
+    font-family: 'Roboto Condensed',sans-serif;
+    color: rgba(47, 49, 49, 0.562); 
+    font-weight: 900;
+    font-style: bold;
+}
+#navbarNavAltMarkup,#rev-title,#form-data{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+}
+#searchNav{
+    background-color: #bcd6e9f6 !important; 
+    display: none;
+    z-index: 3;
+}
+#head{
+    font-family: 'Bangers',sans-serif;
+    color: rgb(218, 216, 118);
+}
+@-moz-document url-prefix() {
+    #head{
+        -webkit-text-stroke-width: 0.4px;
+        -webkit-text-stroke-color: black;
+    }
+}
+#data-title{
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#login-title,#heading{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+.auth-body{
+    font-family: 'Fira Sans Condensed',Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+}
+#delete{
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    margin-bottom: 3px;
+    z-index: 100;
+}
+#delete:hover{
+    color: rgb(0, 153, 255)!important;
+}
+#revDelete{
+    text-decoration: #dc3545;
+}
+#revDelete:hover,#revDelete:focus{
+    background-color: #dc3545;
+}
+.btn-outline-danger:focus{
+    color:#fff;
+}
+footer{
+    background: linear-gradient(135deg,#FF512F,#DD2476 60%,rgb(154, 47, 204));
+}
+.invalid{
+    color: #dc3545;
+    border: 1px solid #dc3545aa;
+}
+.invalid-text{
+    color: #dc3545;
+}
+@media (max-width: 575px) {
+    #searchWrapper {
+        width: 100% !important;
+    }
+    #map{
+        width: 90vw!important;
+        height: 35rem!important;
+    }
+}
+@media (max-width: 999px) {
+    #in-body {
+        position: unset!important;
+    }
+}

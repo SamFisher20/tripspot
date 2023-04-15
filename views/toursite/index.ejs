@@ -1,0 +1,34 @@
+<% layout('layouts/boilerplate') %>
+
+    <div id="map" class="ms-auto me-auto mb-5 rounded" style="height:35rem; width:40rem;"></div>
+    <h1 class="mt-5 mb-3" id="head">Tourist Sites</h1>
+    <div id="tripLists">
+    </div>
+
+
+    <script>
+        const searchNav = document.getElementById("searchNav");
+        searchNav.style.display = "block"
+    </script>
+    <script>                                                                                //To force the page to scroll to top after refresh
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        } else {
+            window.onbeforeunload = function () {
+                window.moveTo(0, 0);
+            }
+        }
+    </script>
+    <script type="text/javascript">                                                         //To undo the searchbar after refesh
+        window.onload = function () {
+            document.getElementById("searchBar").value = "";
+        };
+    </script>
+
+
+    <script>
+        const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
+        const toursites = { features: <%-JSON.stringify(Alltoursite) %>};
+    </script>
+    <script src="/javascripts/infScroll_SearchEng.js"></script>
+    <script src="/javascripts/clusterMap.js"></script>

@@ -1,0 +1,27 @@
+<% layout('layouts/boilerplate') %>
+
+    <span class="container mt-3 mb-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1614591276564-7b3e69347a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+                        alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" id="login-title">Sign In</h5>
+                        <form action="/login" method="POST" class="validated-form" novalidate>
+                            <div class="mb-3">
+                                <label class="form-label auth-body" for="username">Username</label>
+                                <input class="form-control" type="text" id="username" name="username" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label  auth-body" for="password">Password</label>
+                                <input class="form-control" type="password" id="password" name="password" required>
+                            </div>
+                            <button class="btn btn-success col-12">Next</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </span>

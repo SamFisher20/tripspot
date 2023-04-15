@@ -1,0 +1,44 @@
+<% layout('layouts/boilerplate') %>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="mb-3" id="heading">New TripSpot</h1>
+            <form action="/toursite" method="POST" class="validated-form" enctype="multipart/form-data" novalidate>
+                <span id="form-data">
+                    <div mb-3>
+                        <div class="mb-3 float-start" style="width: 47%;">
+                            <label class="form-label" for="title">Site</label>
+                            <input class="form-control" type="text" id="title" name="toursite[title]" required>
+                            <div class="valid-feedback">Fine!</div>
+                        </div>
+                        <div class="mb-3 float-end" style="width: 47%;">
+                            <label class="form-label" for="location">Location</label>
+                            <input class="form-control" type="text" id="location" name="toursite[location]" required>
+                            <div class="valid-feedback">Fine!</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="image" class="form-label">
+                            <span class="form-file-text custom-file-label">Image Files</span>
+                        </label>
+                        <input type="file" class="form-control" id="images" name="image" accept=".jpeg,.png,.jpg"
+                            multiple>
+                        <p class="file-label"><small>Maximum of 3 photos</small></p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="description">Description</label>
+                        <textarea class="form-control" type="text" id="description" cols="13" rows="3"
+                            name="toursite[description]" required></textarea>
+                        <div class="valid-feedback">Fine!</div>
+                    </div>
+                </span>
+                <div class="mb-3 float-start submit-btn">
+                    <button class="btn btn-success">Add Tourspot</button>
+                </div>
+                <div class="mb-3 float-end">
+                    <a class="btn btn-warning text-white" href="/toursite">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/javascripts/script.js"></script>
