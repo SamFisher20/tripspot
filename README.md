@@ -26,7 +26,7 @@ A create and view based web application that allow users to create tourist attra
 
 - **Backend:** NodeJs, ExpressJS
 - **Database:** MongoDB
-- **Frontend:** HTML5, CSS, Bootstrap
+- **Frontend:** HTML5, CSS, Javascript, Bootstrap
 - **Map Service:** MapBox
 - **Storage Service:** Cloudinary
 - **Hosting:** OnRender
@@ -40,7 +40,8 @@ During the development of TripSpot, I gained valuable insights and hands-on expe
 - **HTTP:** Understanding the fundamentals of the Hypertext Transfer Protocol (HTTP) and its role in web communication.
 - **Authentication and Authorization:** Implementing user authentication and authorization using Passport.js, ensuring secure access to the application.
 - **Backend Development:** Building the server-side logic and API endpoints using NodeJs and ExpressJS.
-- **Frontend Development:** Creating the user interface with HTML5 and styling it with CSS, Sass, and Bootstrap.
+- **Frontend Development:** Creating the user interface with HTML5 and styling it with CSS, and Bootstrap.
+- **Database Storage:** Learned about database storage concepts, including the design and implementation of a robust system for storing and managing product and user-related data by using MongoDB.
 - **REST API:** Designing and implementing a RESTful API to enable communication between the frontend and backend.
 
 ### Architecture and Design Patterns
