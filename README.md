@@ -26,7 +26,7 @@ A create and view based web application that allow users to create tourist attra
 
 - **Backend:** NodeJs, ExpressJS
 - **Database:** MongoDB
-- **Frontend:** HTML5, CSS, Javascript, Bootstrap
+- **Frontend:** EJS, HTML5, CSS, Javascript, Bootstrap
 - **Map Service:** MapBox
 - **Storage Service:** Cloudinary
 - **Hosting:** OnRender
