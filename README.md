@@ -63,10 +63,10 @@ During the development of TripSpot, I gained valuable insights and hands-on expe
 
 ## Screenshots
 
-<a href="images/Home_Page.png" target="_blank"><img src="images/Home_Page_thumb.png" alt="Home Page" width="200"/></a>
+<a href="images/Home Page.png" target="_blank"><img src="images/Home_Page_thumb.png" alt="Home Page" width="200"/></a>
 <a href="images/Map.png" target="_blank"><img src="images/Map_thumb.png" alt="Map View" width="200"/></a>
 <a href="images/Details.png" target="_blank"><img src="images/Details_thumb.png" alt="Spot Details" width="200"/></a>
-<a href="images/Sign_In.png" target="_blank"><img src="images/Sign_In_thumb.png" alt="Sign Up Page" width="200"/></a>
+<a href="images/Sign In.png" target="_blank"><img src="images/Sign_In_thumb.png" alt="Sign Up Page" width="200"/></a>
 
 
 ## Getting Started
