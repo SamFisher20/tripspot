@@ -5,13 +5,9 @@ A create and view based web application that allow users to create tourist attra
 ## Features
 
 - **MCV Architecture:** Implemented the Model-Controller-View architectural pattern for a scalable and organized codebase.
-  
 - **CRUD Functionality:** Comprehensive Create-Read-Update-Delete functionality for managing tourist spots.
-
 - **Geospatial Data with MapBox:** Integrated MapBox for geospatial data, allowing users to locate trip-spot locations on a map.
-
 - **Enhanced User Experience:** Implemented features like infinite scroll, a search engine, and user authentication and authorization using passport.js.
-
 - **Middleware Solutions:** Leveraged various external middleware solutions for enhanced functionality and security:
   - connect-flash
   - express-session
