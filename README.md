@@ -68,7 +68,6 @@ During the development of TripSpot, I gained valuable insights and hands-on expe
 <a href="images/Details.png" target="_blank"><img src="images/Details_thumb.png" alt="Spot Details" width="200"/></a>
 <a href="images/Sign In.png" target="_blank"><img src="images/Sign_In_thumb.png" alt="Sign Up Page" width="200"/></a>
 
-
 ## Getting Started
 
 1. Clone the repository.
@@ -76,3 +75,18 @@ During the development of TripSpot, I gained valuable insights and hands-on expe
 3. Set up your MongoDB database.
 4. Configure environment variables.
 5. Run the application with `npm start`.
+
+## Future Works and Planning
+
+Here are some future plans and ideas for the project:
+
+| Task                                   | Description                                                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Build Mobile App**                   | Develop a mobile application version to make the platform accessible on smartphones and tablets. |
+| **Scale the Application**              | Implement strategies for scalability to handle a growing user base and increased data load.       |
+| **Add Gamification Elements**          | Introduce game-like features to enhance user engagement and make the platform more interactive.   |
+| **More Social Features**               | Enhance social interaction with additional features such as user profiles, comments, etc.          |
+| **Implement User Feedback System**     | Create a system to collect and analyze user feedback for continuous improvement.                  |
+| **Improve Accessibility**              | Ensure the platform is accessible to users with disabilities by following accessibility standards. |
+
+Feel free to customize the table based on your specific plans and ideas. This provides a clear roadmap for potential contributors and users interested in the future direction of your project.
